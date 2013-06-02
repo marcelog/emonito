@@ -1,0 +1,8 @@
+{application, emonito, [
+  {description, "Start, stop, and monitor external processes"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, {emonito_app, []}},
+  {env, []}
+ ]}.
